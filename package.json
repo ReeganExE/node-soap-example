@@ -1,0 +1,24 @@
+{
+  "name": "node-soap-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "wsdl": "wsdl-to-ts --outdir=./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "soap": "^0.30.0",
+    "strong-soap": "^1.21.0",
+    "wsdl-to-ts": "github:ReeganExE/wsdl-to-ts"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  }
+}
